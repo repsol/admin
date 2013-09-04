@@ -11,7 +11,7 @@ typeset -i var=${res%?}
 #If /opt percentage is greater than 95 then send an email alert.
 if [ ${var} -gt 95 ]
 then
-	echo "/opt = ${res} Better Clear Some Space on OOLPDB10!" | mailx mgaddick@apollogrp.edu 
+	echo "/opt = ${res} Better Clear Some Space on OOLPDB10!" | mailx info@example.com 
 
 fi
 
