@@ -1,0 +1,23 @@
+This is the README for summary.sh.
+This was written to automate the weekly summary process.
+
+To begin you need to open the file in your favorite editor and look for the line that says
+
+mv final.doc AddYourName$res.doc
+
+Change the AddYourName to YourName$res.doc  
+
+Save the file and that is it. Changing the name will save the file to YouNameWithDate.doc
+
+How it works:
+
+The program asks you a series of questions about your tickets, Projects etc. you answer them throughout the week. At the end of the week pic the Highlights and lowlights [5] and once you submit it it will save the file as yournameandate.doc all formatted and ready to be sent. 
+The next version will have mail capabilities. 
+
+Quick and dirty:
+
+Throughout the week it saves all of the data in a file called weeksum.txt then at the end of the week it parses and formats the file and renames it to YourNameandDate.doc All you have to do is send it on and you are done. 
+
+If you need any help or have any questions don't hesitate to ask.
+
+
