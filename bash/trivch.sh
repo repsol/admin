@@ -2,7 +2,7 @@
 #
 #
 # This script watches the trivia process and restarts it if it dies
-# Written by Mike Addicks 9/19/14
+# Written by adrenaline 9/19/14
 #
 #
 
